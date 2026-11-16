@@ -12,12 +12,21 @@
         <h1>✨ Your Next Great Adventure Starts Here!</h1>
         <p>Bored? Let's find something fun to do!</p>
 
-        <div class="adventure-card">
-            <h2 id="activity">Your next adventure awaits...</h2>
-            <button onclick="generateAdventure()">
-                Find My Adventure!
-            </button>
-        </div>
+<div class="adventure-card">
+    <h2 id="activity">Your next adventure awaits...</h2>
+
+    <select id="category">
+        <option value="all">All Adventures</option>
+        <option value="creative">Creative</option>
+        <option value="outdoors">Outdoors</option>
+        <option value="relaxing">Relaxing</option>
+        <option value="productive">Productive</option>
+    </select>
+
+    <button onclick="generateAdventure()">
+        Find My Adventure!
+    </button>
+</div>
 
         <script src="script.js"></script>
     </main>
